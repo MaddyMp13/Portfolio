@@ -11,19 +11,19 @@ const Navbar = () => {
       <ul
         className=" hidden text-sm tracking-wider gap-8 uppercase md:flex "
       >
-        <li className="cursor-pointer hover:text-purple-400 transition">
-          Home
+        <li >
+          <a className="cursor-pointer hover:text-purple-400 transition" href="#home">Home</a>
         </li>
         <li className="cursor-pointer hover:text-purple-400 transition">
-          About
+          <a className="cursor-pointer hover:text-purple-400 transition" href="#about">About</a>
         </li>
         <li
           className="cursor-pointer hover:text-purple-400 transition">
-          Project
+          <a className="cursor-pointer hover:text-purple-400 transition" href="#projects">Project</a>
         </li>
         <li
           className="cursor-pointer hover:text-purple-400 transition ">
-          Contats
+          <a className="cursor-pointer hover:text-purple-400 transition" href="#contact">Contact</a>
         </li>
       </ul>
     </nav>
