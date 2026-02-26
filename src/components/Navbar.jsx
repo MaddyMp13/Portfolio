@@ -3,7 +3,8 @@ import React from "react";
 const Navbar = () => {
   return (
     <nav
-      className="flex z-50 w-full px-8 py-5 text-white bg-black fixed top-0 justify-between items-center "
+      className="flex z-50 w-full px-8 py-5 text-white fixed top-0 justify-between items-center 
+      backdrop-blur-sm p-8 shadow-2xl "
     >
       <h1 className="  text-2xl font-bold tracking-normal " >
         Mandar Patil

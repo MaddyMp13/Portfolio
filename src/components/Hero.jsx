@@ -1,8 +1,9 @@
 import React from "react";
+import heroImage from "../assets/27230.jpg"
 
 const Hero = () => {
   return (
-    <section id="home"
+    <section id="home" style={{ backgroundImage: `url(${heroImage})`, backgroundSize: "cover", backgroundPosition: "top " }}
       className="flex flex-col h-screen px-6 text-white text-center bg-black justify-center items-center "
     >
       <h1 className="mb-6 text-4xl font-extrabold leading-tight md:text-7xl">
