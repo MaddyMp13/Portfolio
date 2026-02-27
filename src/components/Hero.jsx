@@ -66,7 +66,7 @@ const Hero = () => {
     const stopTimeout = setTimeout(() => {
       clearInterval(flickerInterval);
       setOpacity(0.3); // stable darkness after flicker
-    }, 6000);
+    }, 2000);
 
     return () => {
       clearInterval(flickerInterval);
