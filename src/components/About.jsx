@@ -1,9 +1,10 @@
 import React from 'react'
 import profileImage from "../assets/mandarProfile.jpg"
+import backImg from '../assets/3d-dark-grunge-display-background-with-smoky-atmosphere.jpg'
 
 const About = () => {
     return (
-        <section id="about" className="min-h-screen bg-black text-white flex items-center px-6 md:px-20 py-20">
+        <section id="about" className=" min-h-screen bg-black text-white flex items-center px-6 md:px-20 py-20" style={{ backgroundImage: `url(${backImg})`, backgroundSize: "cover", backgroundPosition: "center right" }}>
             <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-12 items-center">
 
                 <div>
