@@ -1,6 +1,6 @@
 import React from 'react'
 import profileImage from "../assets/mandarProfile.jpg"
-import backImg from '../assets/3d-dark-grunge-display-background-with-smoky-atmosphere.jpg'
+import backImg from '../assets/aboutBackground.jpg'
 
 const About = () => {
     return (
