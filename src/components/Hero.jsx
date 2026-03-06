@@ -76,8 +76,7 @@ const Hero = () => {
 
   return (
     <section
-      id="hero"
-      ref={heroRef}
+      id="hero" ref={heroRef}
       className="relative h-screen flex items-center justify-center text-white overflow-hidden"
       style={{
         backgroundImage: `url(${bgImage})`,

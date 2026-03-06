@@ -17,11 +17,11 @@ const Navbar = () => {
 
         {/* Desktop Menu */}
 
-        <ul className=" hidden text-sm tracking-wider gap-8 uppercase md:flex "      >
-          <li >          <a className="cursor-pointer hover:text-purple-400 transition" href="#hero">Home</a>        </li>
-          <li className="cursor-pointer hover:text-purple-400 transition">          <a className="cursor-pointer hover:text-purple-400 transition" href="#about">About</a>        </li>
-          <li className="cursor-pointer hover:text-purple-400 transition">          <a className="cursor-pointer hover:text-purple-400 transition" href="#projects">Project</a>        </li>
-          <li className="cursor-pointer hover:text-purple-400 transition ">          <a className="cursor-pointer hover:text-purple-400 transition" href="#contact">Contact</a>        </li>
+        <ul className="hidden text-sm tracking-wider gap-8 uppercase md:flex">
+          <li ><a className="cursor-pointer hover:text-purple-400 transition" href="#home">Home</a></li>
+          <li className="cursor-pointer hover:text-purple-400 transition"><a className="cursor-pointer hover:text-purple-400 transition" href="#about">About</a> </li>
+          <li className="cursor-pointer hover:text-purple-400 transition"><a className="cursor-pointer hover:text-purple-400 transition" href="#projects">Project</a></li>
+          <li className="cursor-pointer hover:text-purple-400 transition "><a className="cursor-pointer hover:text-purple-400 transition" href="#contact">Contact</a></li>
         </ul>
 
         {/* Mobile Button */}
