@@ -6,7 +6,7 @@ const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false)
   return (
     <nav
-      className="z-50 w-full px-8 py-5 text-white fixed top-0 justify-between items-center 
+      className="z-50 w-full px-8 py-3 text-white fixed top-0 justify-between items-center 
       backdrop-blur-sm p-8 shadow-2xl "
     >
       <div className="flex justify-between items-center">
@@ -18,10 +18,18 @@ const Navbar = () => {
         {/* Desktop Menu */}
 
         <ul className="hidden text-sm tracking-wider gap-8 uppercase md:flex">
-          <li ><a className="cursor-pointer hover:text-purple-400 transition" href="#home">Home</a></li>
-          <li className="cursor-pointer hover:text-purple-400 transition"><a className="cursor-pointer hover:text-purple-400 transition" href="#about">About</a> </li>
-          <li className="cursor-pointer hover:text-purple-400 transition"><a className="cursor-pointer hover:text-purple-400 transition" href="#projects">Project</a></li>
-          <li className="cursor-pointer hover:text-purple-400 transition "><a className="cursor-pointer hover:text-purple-400 transition" href="#contact">Contact</a></li>
+          <li >
+            <a className="cursor-pointer hover:text-purple-400 transition" href="#home">Home</a>
+          </li>
+          <li className="cursor-pointer hover:text-purple-400 transition">
+            <a className="cursor-pointer hover:text-purple-400 transition" href="#about">About</a>
+          </li>
+          <li className="cursor-pointer hover:text-purple-400 transition">
+            <a className="cursor-pointer hover:text-purple-400 transition" href="#projects">Project</a>
+          </li>
+          <li className="cursor-pointer hover:text-purple-400 transition ">
+            <a className="cursor-pointer hover:text-purple-400 transition" href="#contact">Contact</a>
+          </li>
         </ul>
 
         {/* Mobile Button */}
