@@ -112,9 +112,9 @@ const Hero = () => {
           digital products using React.
         </p>
 
-        <button className="px-8 py-3 text-black font-medium bg-white rounded-full transition duration-500 hover:bg-purple-500 hover:scale-110 hover:text-yellow-50">
+        <a href="#projects" className="px-8 py-3 text-black font-medium bg-white rounded-full transition duration-500 hover:bg-purple-500 hover:scale-110 hover:text-yellow-50">
           View My Work
-        </button>
+        </a>
       </div>
     </section>
   );
